@@ -1,0 +1,96 @@
+body
+{
+	background-image: url(Servicesss.jpg);
+	background-size:  cover;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+}
+ul li{
+	display: inline-block;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 10px
+	margin-left:10px;
+
+
+}
+ul li a{ 
+	text-decoration: none;
+	color: white;
+	padding: 4px 20px;
+	border: 1px solid transparent;
+	transition:1.5s ease; 
+	font-size: 20px;
+}
+
+ul li a:hover{
+	background-color:black;
+	color:white;
+
+}
+.navigations
+{color: white;
+font-size: 30px}
+footer
+{text-align: center;
+background: gray;
+color:white;}
+.navigations::selection
+{
+	color: white;
+	background-color: gray;
+
+}
+#btn
+{
+	font-size: 30px;
+
+}
+ @media 
+ {(min-width: 500px)}
+
+ form > input
+  {
+  	background-color: white;
+  }
+  .fname[text=text]
+  {
+background-color: black;
+  }
+ .all
+ {
+ 	color: black;
+ 	font-size: 20px;
+ }
+.contact
+{
+	color: black;
+	font-size: 30px;
+}
+.suheila
+{
+	color: blue;
+}
+table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+
+  .navigations
+  {
+  	color: black;
+  }

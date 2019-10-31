@@ -1,0 +1,18 @@
+$cleaning: blue; 
+%h1
+{
+	color: $cleaning;
+
+}
+body
+{
+	h1{
+	color: blue;
+	}
+}
+
+.l1 {
+	@extend %h1;
+	font-family: Arial;
+	font-size: 20px;
+}
